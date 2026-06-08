@@ -1,0 +1,625 @@
+/* All Common CSS Start */
+*{
+    margin:0;
+    padding:0;
+}
+/* All Common CSS End */
+.main {
+    width: 900px;
+    height: 900px;
+    margin: 50px auto;
+    background: rgb(0, 0, 0);
+    position: relative;
+    
+}
+.board {
+    width: 800px;
+    height: 800px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+.one {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+   
+}
+.two {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    text-align: center;
+    position: absolute;
+    top: 50px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.three {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 50px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.four {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+}
+.five {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 50px;
+    left: 450px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;  
+}
+.six {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 50px;
+    left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.seven {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 50px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.eight {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 50px;
+    left: 750px;
+}
+.aone {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 150px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.atwo {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.athree {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 150px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.afour {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.afive {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 150px;
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.asix {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.aseven {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 150px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.aeight {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 150px;
+    left: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+.bone {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.btwo {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+.bthree {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 250px;
+    left: 250px;
+}
+.bfour {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+}
+.bfive {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 250px;
+    left: 450px;
+}
+.bsix {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 250px;
+    left: 550px;
+}
+.bseven {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 250px;
+    left: 650px;
+}
+.beight {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 250px;
+    left: 750px;
+}
+.cone {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 350px;
+    left: 50px;
+}
+.ctwo {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 350px;
+    left: 150px;
+}
+.cthree {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 350px;
+    left: 250px;
+}
+.cfour {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 350px;
+    left: 350px;
+}
+.cfive {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 350px;
+    left: 450px;
+}
+.csix {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 350px;
+    left: 550px;
+}
+.cseven {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 350px;
+    left: 650px;
+}
+.ceight {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 350px;
+    left: 750px;
+}
+.done {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 50px;
+}
+.dtwo {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 450px;
+    left: 150px;
+}
+.dthree {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 250px;
+}
+.dfour {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 450px;
+    left: 350px;
+}
+.dfive {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 450px;
+}
+.dsix {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 450px;
+    left: 550px;
+}
+.dseven {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 450px;
+    left: 650px;
+}
+.deight {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 450px;
+    left: 750px;
+}
+.eone {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 550px;
+    left: 50px;
+}
+.etwo {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 150px;
+}
+.ethree {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 550px;
+    left: 250px;
+}
+.efour {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 350px;
+}
+.efive {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 550px;
+    left: 450px;
+}
+.esix {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 550px;
+}
+.eseven {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 550px;
+    left: 650px;
+}
+.eeight {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 550px;
+    left: 750px;
+}
+.fone {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 650px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.ftwo {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 650px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.fthree {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 650px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.ffour {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 650px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.ffive {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 650px;
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.fsix {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 650px;
+    left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.fseven {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 650px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.feight {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 650px;
+    left: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gone {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 750px;
+    left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gtwo {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 750px;
+    left: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gthree {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 750px;
+    left: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gfour {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 750px;
+    left: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gfive {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 750px;
+    left: 450px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gsix {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 750px;
+    left: 550px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.gseven {
+    width: 100px;
+    height: 100px;
+    background: gray;
+    position: absolute;
+    top: 750px;
+    left: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+.geight {
+    width: 100px;
+    height: 100px;
+    background: whitesmoke;
+    position: absolute;
+    top: 750px;
+    left: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+    
